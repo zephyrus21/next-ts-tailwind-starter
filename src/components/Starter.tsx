@@ -2,10 +2,7 @@ import type { NextPage } from "next";
 
 const Starter: NextPage = () => {
   const techs = [
-    {
-      name: "🔥Next.js 12",
-      link: "https://nextjs.org/",
-    },
+    { name: "🔥Next.js 12", link: "https://nextjs.org/" },
     { name: "⚛️React.js 18", link: "https://reactjs.org/" },
     { name: "💎TypeScript", link: "https://www.typescriptlang.org/" },
     { name: "🍃Tailwind CSS 3", link: "https://tailwindcss.com/" },
@@ -20,7 +17,7 @@ const Starter: NextPage = () => {
       <p className='text-gray-400 text-lg mb-3'>
         A minimal starter template for Next.js, TypeScript, and Tailwind CSS
       </p>
-      <div className='font-medium flex'>
+      <div className='font-medium flex flex-wrap justify-center'>
         {techs.map((tech) => (
           <a
             href={tech.link}

@@ -1,10 +1,10 @@
 import type { NextPage } from "next";
-import Test from "@components/Test";
+import Starter from "@components/Starter";
 
 const Home: NextPage = () => {
   return (
-    <div>
-      <Test />
+    <div className='flex flex-col justify-center items-center min-h-screen font-primary'>
+      <Starter />
     </div>
   );
 };

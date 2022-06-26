@@ -3,6 +3,7 @@
   <h1>⚡next-ts-tailwind-starter⚡</h1>
   <p>Minimal Next.js + Tailwind CSS + TypeScript starter template.</p>
   <p>Made by <a href="https://piyushpandey.tech">Piyush Pandey</a></p>
+  <p>Give a ⭐ if you want to appreciate.</p>
 </div>
 
 ### 1. Use this template in any of the two methods:

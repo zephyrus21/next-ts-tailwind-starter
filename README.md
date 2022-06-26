@@ -3,7 +3,6 @@
   <h1>⚡next-ts-tailwind-starter⚡</h1>
   <p>Minimal Next.js + Tailwind CSS + TypeScript starter template.</p>
   <p>Made by <a href="https://piyushpandey.tech">Piyush Pandey</a></p>
-  
 </div>
 
 ### 1. Use this template in any of the two methods:
@@ -12,6 +11,12 @@
    
    ![Use as template](https://user-images.githubusercontent.com/53862445/175824949-6169ea1d-0745-4b51-903c-bcdd4d1541c8.png)
    
+   - A new repo will be created
+
+   ![New repo](https://user-images.githubusercontent.com/53862445/175825520-5e480fb7-52ee-44cd-b805-a6a74a854fb7.png)
+   
+   - Clone the repo from your GitHub and you are good to go!!!
+
 2. Using `create-next-app`
 
    ```bash
@@ -19,7 +24,7 @@
    ```
    
    or
-   
+
     ```bash
    yarn create next-app -e https://github.com/zephyrus21/next-ts-tailwind-starter project-name
    ```

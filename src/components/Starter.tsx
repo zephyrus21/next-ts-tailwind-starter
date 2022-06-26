@@ -27,6 +27,20 @@ const Starter: NextPage = () => {
           </a>
         ))}
       </div>
+      {process.env.NODE_ENV === "production" ? (
+        <a
+          className='font-semibold text-2xl mt-10 transition-all hover:text-orange-400 hover:-translate-y-1'
+          href='https://github.com/zephyrus21/next-ts-tailwind-starter'>
+          Get Started {"-->"}
+        </a>
+      ) : (
+        <p className='font-medium mt-10'>
+          Start by editing{" "}
+          <code className='bg-orange-100 rounded-lg p-1'>
+            src/pages/index.tsx
+          </code>
+        </p>
+      )}
       <footer className='absolute bottom-4'>
         Made with⚡|{" "}
         <a

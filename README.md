@@ -28,6 +28,8 @@
    
 ### 2. Install dependencies
 
+`cd` to the project folder then
+
 ```bash
 yarn install
 ```
